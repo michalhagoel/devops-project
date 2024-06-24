@@ -11,7 +11,6 @@
         boolean isValid = true;
 
         // Validate username
-// asdsad
         if (username != null && !username.matches("^[a-zA-Z]+$")) {
             errorMessage += "Username should not contain numbers.<br>";
             isValid = false;
